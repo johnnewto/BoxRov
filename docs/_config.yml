@@ -1,7 +1,7 @@
-repository: johnnewto/BoxRov
+repository: johnnewto/boxsim
 output: web
-topnav_title: BoxRov
-site_title: BoxRov
+topnav_title: boxsim
+site_title: boxsim
 company_name: Johnnewton
 description: a scene ground truth simulater to enable viion pipeleine processing development
 # Add Google analytics id if you have one and want to use it here

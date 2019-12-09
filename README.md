@@ -69,20 +69,6 @@
 ```
 
 </div>
-<div class="output_area" markdown="1">
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7fd532384fd0>
-
-
-
-
-![png](output_5_1.png)
-
-
-</div>
 
 </div>
 
@@ -99,13 +85,6 @@
 # plt.show()
 
 ```
-
-</div>
-<div class="output_area" markdown="1">
-
-
-![png](output_7_0.png)
-
 
 </div>
 
