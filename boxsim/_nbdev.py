@@ -11,8 +11,7 @@ index = {"show_img": "00_trajectory.ipynb",
          "fib": "05_test.ipynb"}
 
 modules = ["trajectory.py",
-           "test.py",
-           "index.py"]
+           "test.py"]
 
 git_url = "https://github.com/johnnewto/BoxRov/boxsim/tree/master/"
 
