@@ -2,24 +2,17 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"show_img": "00_core.ipynb",
-         "sliceImage": "00_core.ipynb",
-         "make_trajectory1": "00_core.ipynb",
-         "make_trajectory2": "00_core.ipynb",
-         "make_trajectory3": "00_core.ipynb",
-         "START_POS": "00_core.ipynb",
-         "get_next": "00_core.ipynb",
-         "rotate": "00_core.ipynb",
-         "get_image_patch": "00_core.ipynb",
-         "next_image": "00_core.ipynb",
-         "IMAGE_PATCH_SIZE": "00_core.ipynb",
-         "last_img": "00_core.ipynb",
-         "last_pos": "00_core.ipynb",
-         "traj": "00_core.ipynb",
-         "f": "00_core.ipynb",
-         "mark_key_points": "00_core.ipynb"}
+index = {"show_img": "00_trajectory.ipynb",
+         "sliceImage": "00_trajectory.ipynb",
+         "rotate": "00_trajectory.ipynb",
+         "get_image_patch": "00_trajectory.ipynb",
+         "Trajectory": "00_trajectory.ipynb",
+         "mark_key_points": "00_trajectory.ipynb",
+         "fib": "05_test.ipynb"}
 
-modules = ["core.py"]
+modules = ["trajectory.py",
+           "test.py",
+           "index.py"]
 
 git_url = "https://github.com/johnnewto/BoxRov/boxsim/tree/master/"
 

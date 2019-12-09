@@ -10,8 +10,14 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Title
-      url: /core
+      title: Trajectory Functions
+      url: /trajectory
+    - output: web,pdf
+      title: Core Functions
+      url: /test
+    - output: web,pdf
+      title: 'Examples of use - '
+      url: /20-example-of-use
     output: web
     title: boxsim
   output: web

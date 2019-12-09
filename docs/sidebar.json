@@ -1,6 +1,8 @@
 {
   "boxsim": {
     "Overview": "/",
-    "Title": "/core"
+    "Trajectory Functions": "/trajectory",
+    "Core Functions": "/test",
+    "Examples of use - ": "/20-example-of-use"
   }
 }
