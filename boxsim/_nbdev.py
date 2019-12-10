@@ -11,8 +11,9 @@ index = {"show_img": "00_trajectory.ipynb",
          "fib": "05_test.ipynb"}
 
 modules = ["trajectory.py",
-           "test.py"]
+           "test.py",
+           "index.py"]
 
-git_url = "https://github.com/johnnewto/BoxRov/boxsim/tree/master/"
+git_url = "https://github.com/johnnewto/boxsim/boxsim/tree/master/"
 
 def custom_doc_links(name): return None

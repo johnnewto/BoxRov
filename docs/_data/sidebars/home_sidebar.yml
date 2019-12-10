@@ -13,11 +13,14 @@ entries:
       title: Trajectory Functions
       url: /trajectory
     - output: web,pdf
+      title: 'Examples of use - '
+      url: /example_of_use
+    - output: web,pdf
       title: Core Functions
       url: /test
     - output: web,pdf
-      title: 'Examples of use - '
-      url: /20-example-of-use
+      title: 'ORB - Simulation of image matching '
+      url: /vid_stab_orb
     output: web
     title: boxsim
   output: web

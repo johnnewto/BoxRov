@@ -2,7 +2,8 @@
   "boxsim": {
     "Overview": "/",
     "Trajectory Functions": "/trajectory",
+    "Examples of use - ": "/example_of_use",
     "Core Functions": "/test",
-    "Examples of use - ": "/20-example-of-use"
+    "ORB - Simulation of image matching ": "/vid_stab_orb"
   }
 }

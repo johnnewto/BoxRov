@@ -85,6 +85,7 @@ class Trajectory:
         self.xyza = np.column_stack((xy, z, angles))
         self.i = 0
         self.length = length
+        self.size=[400, 600]
 
     def __next__(self):
         if self.i < self.length:
@@ -95,13 +96,20 @@ class Trajectory:
         else:
             raise StopIteration()
 
-        cur_img, move_actual = get_image_patch(self.img, [dy, dx], rot=da)
+        cur_img, move_actual = get_image_patch(self.img, [dy, dx], size=[400, 600], rot=da)
 
         move_true = move_actual[0], move_actual[1], da
 
         return [cur_img, move_true]
 
-        # return return_value
+    def get_first(self, scale=1.25):
+        sz=[int(i*1.25) for i in self.size]
+        dy = int(self.xyza[0, 0] + self.startpos[0])
+        dx = int(self.xyza[0, 1] + self.startpos[1])
+        da = self.xyza[0, 3]
+        cur_img, _ = get_image_patch(self.img, [dy, dx], size=sz, rot=da)
+        return cur_img
+
     def __iter__(self):
         return self
 
